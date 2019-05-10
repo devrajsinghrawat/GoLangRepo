@@ -17,6 +17,10 @@ type sedan struct {
 	luxury bool
 }
 
+func (t truck) getDetails() {
+	fmt.Printf("this is method of struct, color is - %v \n", t.color)
+}
+
 // Ex2 -Exported function to main - Struct, map and slice
 func Ex2() {
 
@@ -24,6 +28,8 @@ func Ex2() {
 		fourWheeler: true}
 	s := sedan{vehicle: vehicle{doors: 4, color: "RED"},
 		luxury: true}
+
+	t.getDetails()
 
 	fmt.Print(t, s)
 

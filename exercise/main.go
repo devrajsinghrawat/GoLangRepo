@@ -1,6 +1,8 @@
 package main
 
-import "./exsoll5"
+import (
+	"./exsoll6"
+)
 
 func main() {
 	// exsoll1.Ex1()
@@ -18,6 +20,11 @@ func main() {
 	// exsoll4.Ex4()
 	// exsoll5.Ex1()
 	// exsoll5.Ex2()
-	exsoll5.Ex3()
+	// exsoll5.Ex3()
 
+	// p := []int{1, 2, 3, 4, 5, 6} // we have a slice
+	// exsoll6.Ex1(p...)            // spliting te slice into multiple int's, we can also pass zero args
+	// exsoll6.Ex2()
+	// exsoll6.Ex3()
+	exsoll6.Ex4()
 }
