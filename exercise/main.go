@@ -28,5 +28,9 @@ func main() {
 	// exsoll6.Ex3()
 	// exsoll6.Ex4()
 	// exsoll6.Ex5()
-	exsoll6.Ex6()
+	// exsoll6.Ex6()
+	// exsoll6.Ex7()
+	// exsoll6.Ex8()
+	exsoll6.Ex9()
+
 }

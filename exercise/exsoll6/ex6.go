@@ -6,23 +6,23 @@ import "fmt"
 func Ex6() {
 
 	i := []int{1, 2, 3, 4, 5}
-	// s2 := foo(i)             #1  passing a slice
-	s2 := foo(i...) // #2
+	s2 := foo(i...)
 
-	// j, s := bar()
+	s3 := bar(i)
 
 	fmt.Print(s2)
+	fmt.Print(s3)
 }
 
-// func foo() int {
-// 	return 4
-// }
+func bar(n []int) int {
+	var s1 int
+	for _, v := range n {
+		s1 = s1 + v
+	}
 
-// func bar() (int, string) {
-// 	return 5, "hello bar"
-// }
+	return s1
+}
 
-// func foo(n []int) int {        # 1  receiving a slice
 func foo(n ...int) int { // # 2
 	var s1 int
 	for _, v := range n {
