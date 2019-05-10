@@ -26,5 +26,7 @@ func main() {
 	// exsoll6.Ex1(p...)            // spliting te slice into multiple int's, we can also pass zero args
 	// exsoll6.Ex2()
 	// exsoll6.Ex3()
-	exsoll6.Ex4()
+	// exsoll6.Ex4()
+	// exsoll6.Ex5()
+	exsoll6.Ex6()
 }
