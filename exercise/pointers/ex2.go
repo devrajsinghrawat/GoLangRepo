@@ -1,4 +1,4 @@
-package exsoll6
+package pointers
 
 import (
 	"fmt"
@@ -21,16 +21,16 @@ func (s square) area() float32 {
 	return (s.side * s.side)
 }
 
-func (c circle) area() float32 {
+func (c *circle) area() float32 {
 	return math.SqrtPi * c.radius * c.radius
 }
 
 func info(s shape) {
-	fmt.Println(s.area())
+	fmt.Printf("Area of shape. is %f \n", s.area())
 }
 
-// Ex9 -Exported function to main - interface method
-func Ex9() {
+// Ex2 -Exported function to main - interface method
+func Ex2() {
 
 	s := square{side: 4.1}
 
@@ -43,7 +43,10 @@ func Ex9() {
 	c1 := c.area()
 	fmt.Printf("Area of circle is %f \n", c1)
 
-	info(c)
 	info(s)
 
+	// c2 := &c
+	// fmt.Printf("Type of c2 - %T\n", c2)
+	// info(c2)
+	info(&c) // only accepts pointer if pointer receiver
 }
