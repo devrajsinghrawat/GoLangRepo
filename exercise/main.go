@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./pointers"
+	"./conc"
 )
 
 func main() {
@@ -37,6 +37,11 @@ func main() {
 	// exsoll6.Ex12()
 	// pointers.Ex1()
 	// pointers.Ex2()
-	pointers.Ex3()
+	// pointers.Ex3()
+	// pointers.Ex4()
+	// pointers.Ex5()
+	// pointers.Ex6()
+	// exsoll7.Ex1()
+	conc.Ex1()
 
 }
