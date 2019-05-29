@@ -1,0 +1,16 @@
+{
+  "name": "Porfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "JSON2Excel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "icg-json-to-xlsx": "^0.2.5",
+    "path": "^0.12.7"
+  }
+}

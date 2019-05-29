@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./conc"
+	"./channels"
 )
 
 func main() {
@@ -42,6 +42,7 @@ func main() {
 	// pointers.Ex5()
 	// pointers.Ex6()
 	// exsoll7.Ex1()
-	conc.Ex1()
-
+	// conc.Ex1()
+	// conc.Ex2()
+	channels.Ex7()
 }
